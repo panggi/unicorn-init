@@ -4,5 +4,4 @@ template "/etc/init.d/unicorn" do
   group "root"
   mode "0755"
   source "unicorn.erb"
-  action :nothing
 end
